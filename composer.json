@@ -1,0 +1,17 @@
+{
+    "name": "ihor/cm-sphp",
+    "authors": [
+        {
+            "name": "Ihor Maslak",
+            "email": "pakegpakeg@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+    	"psr-4": {
+    		"engine\\": "engine",
+            "admin\\": "admin",
+    		"engine\\di\\" : "engine/di"
+    	}
+    }
+}
